@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agriculture Management - Products</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .product-card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 15px;
+            width: 250px;
+            text-align: center;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .product-card h3 {
+            font-size: 1.4em;
+            margin: 10px 0;
+        }
+        .product-card p {
+            color: #555;
+            padding: 0 10px;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+        .product-card .price {
+            font-size: 1.2em;
+            color: #4CAF50;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-card button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+        .product-card button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Agriculture Products</h1>
+    <p>Explore the best products for agricultural management</p>
+</header>
+
+<div class="product-container">
+    <div class="product-card">
+        <img src="https://via.placeholder.com/250x200" alt="Product Image 1">
+        <h3>Fertilizer XYZ</h3>
+        <p>High-quality organic fertilizer for improved crop yield and soil health.</p>
+        <div class="price">$25.99</div>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/250x200" alt="Product Image 2">
+        <h3>Tractor ABC</h3>
+        <p>Powerful and fuel-efficient tractor suitable for various farming tasks.</p>
+        <div class="price">$18,500.00</div>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/250x200" alt="Product Image 3">
+        <h3>Seed Planter</h3>
+        <p>Automatic seed planter for faster and more efficient planting.</p>
+        <div class="price">$1,299.99</div>
+        <button>Buy Now</button>
+    </div>
+
+    <div class="product-card">
+        <img src="https://via.placeholder.com/250x200" alt="Product Image 4">
+        <h3>Pesticide Spray</h3>
+        <p>Effective pesticide spray to protect crops from harmful pests.</p>
+        <div class="price">$45.00</div>
+        <button>Buy Now</button>
+    </div>
+</div>
+
+</body>
+</html>
