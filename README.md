@@ -1,11 +1,6 @@
 # 🌾 Organic Agri Smart Platform
 ### A Web-Based Platform for Farmers & Buyers | Python Flask + MySQL + HTML/CSS
 
-<div align="center">
-
-![Banner](images/banner_girl.png)
-
-</div>
 
 ---
 
@@ -42,6 +37,14 @@ This platform removes middlemen, reduces travel costs for farmers, and promotes 
 - Secure authentication system
 
 ---
+### Application Results Images
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/1f0cae43-7331-477c-b165-d40fe2d09955" />
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/e2298382-55a8-4c4f-a15d-4d94cbb6223f" />
+
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/cc09c0aa-a584-462f-a138-3cb476154000" />
+
 
 ## 📚 Tech Stack Used
 | Layer | Technologies |
